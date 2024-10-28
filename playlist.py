@@ -1,0 +1,9 @@
+t=int(input())
+while(t>0):
+    a,b=map(int,input().split())
+    if(a>b):
+        c=a//(b*3)
+        print(c)
+    else:
+        print("0")
+    t=t-1
