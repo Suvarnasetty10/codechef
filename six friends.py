@@ -1,0 +1,10 @@
+t=int(input())
+while(t>0):
+    a,b=map(int,input().split())
+    c=3*a
+    d=2*b
+    if(c<d):
+        print(c)
+    else:
+        print(d)
+    t=t-1
