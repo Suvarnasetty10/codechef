@@ -1,0 +1,9 @@
+t=int(input())
+while(t>0):
+    n=int(input())
+    if(n>300):
+        d=n*10
+        print(d)
+    else:
+        print("3000")
+    t=t-1
