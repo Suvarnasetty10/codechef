@@ -1,0 +1,10 @@
+t=int(input())
+count=0
+while(t>0):
+    r1,r2,r3,r4=map(int,input().split())
+    count=(r1==0)+(r2==0)+(r3==0)+(r4==0)
+    if(count==4):
+        print("in")
+    else:
+        print("out")
+    t=t-1
