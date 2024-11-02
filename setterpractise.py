@@ -1,0 +1,9 @@
+t=int(input())
+while(t>0):
+    a,b=map(int,input().split())
+    c=(b/a)*100
+    if(c>=50):
+        print("yes")
+    else:
+        print("no")
+    t=t-1
